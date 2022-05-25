@@ -1,0 +1,27 @@
+ node{
+                stage("Git cloning Stage"){
+                git branch: 'master', credentialsId: 'code_commit', url: 'https://git-codecommit.us-east-2.amazonaws.com/v1/repos/UHF-AGENT-APP-FRONTEND'
+                }
+                stage("Nodejs FE depency installation"){
+                    sh "npm install"
+                }
+				stage("Nodejs Frontend Build"){
+				    try{
+				        sh "npm run build"
+				        currentBuild.result = 'SUCCESS'
+				        emailext attachLog: true, body: 'Dev-UHF-Agent-Portal-frontend build sucess', compressLog: true, recipientProviders: [requestor()], replyTo: 'Dev.CarynHealth@ust-global.com', subject: 'Dev-UHF-Agent-Portal-frontend build status', to: 'Dev.CarynHealth@ust-global.com'
+				    } catch (Exception err) {
+				        currentBuild.result = 'FAILURE'
+				        emailext attachLog: true, body: 'Dev-UHF-Agent-Portal-frontend build failed', compressLog: true, recipientProviders: [requestor()], replyTo: 'Dev.CarynHealth@ust-global.com', subject: 'Dev-UHF-Agent-Portal-frontend build status', to: 'Dev.CarynHealth@ust-global.com'
+				    }
+				    echo "RESULT: ${currentBuild.result}"
+				}
+				stage("move build to Artifact s3"){
+				sh 'aws s3 cp /var/lib/jenkins/workspace/Frontend-Pipelines/dev-agent-uhf-frontend/build/ s3://dev-agent-uhf-frontend-s3artifact/build-\\"$(date +%d-%m-%Y_%H:%M:%S)\\" --recursive'
+				}
+				stage("deployment to uhf agent server"){
+				    sh "ANSIBLE_HOST_KEY_CHECKING=False  ansible-playbook -i /var/lib/jenkins/workspace/ansible-dev/dev-agent-frontend-ansible/hosts  /var/lib/jenkins/workspace/ansible-dev/dev-agent-frontend-ansible/devagent.yaml -u ubuntu   --private-key /var/lib/jenkins/workspace/ansible-dev/dev-agent-frontend-ansible/maricoppadev.pem"
+				}
+
+
+ }

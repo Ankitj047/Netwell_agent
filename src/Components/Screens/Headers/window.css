@@ -1,0 +1,960 @@
+.window{
+    /* width: 100%;
+    height: 653px; */
+    object-fit: contain;  
+    border-radius: 4px;
+    background-color: #eae8db;
+      /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+    width: 75%;    
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+    width: 50%;
+  }
+}
+
+.toolbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: #420045;
+    height:47.3px
+
+}
+.spacer{
+    flex:1;
+}
+.itemsSpace{
+    padding:0 0.5rem;
+}
+.appTitle{    
+        width: 200px;
+        height: 18px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.15px;
+        color: #ffffff;
+}
+
+/* =======================Home.js.js======================= */
+
+.background-full-size{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background-color: #eae8db;
+  }
+  .top-horizontal-margin{
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-top: 30px;
+  }
+  .cardmaincontainer{
+    height: 500px;
+    width: 570px;
+    background-color: tomato;
+  }
+  .cardmaincontainer2{
+    height: 500px;
+    width: 370px;
+    background-color: tomato;
+  }
+  
+  /* =====================Header.js============== */
+  .header-div{
+    background-color: #420045;
+    color: white;
+  }
+  
+  /* =====================MyNeedsCard.js================ */
+  .myneedscard-div{
+    /* height: 200px;
+    width: 250px; */
+    width:340px;
+    height:160px;
+    background-color: #ffffff;
+    /* margin-left: 12px; */
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .My-Needs-header {
+    font-size: 16px;
+    color: #4f4f4f;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+  }
+  
+  .bg_content {
+    width: 250px;
+    height: 100px;
+    background-color: rgba(234, 232, 219, 0.4);
+  }
+  .circle-logo{
+    background-color: #f0c8a0;
+    width: 36px;
+    height: 36px;
+    border-radius: 30px;
+  }
+  .date {
+    /* width: 95px; */
+    /* height: 20px; */
+    /* font-family: Roboto; */
+    font-size: 12px;
+    font-weight: normal;
+    /* font-stretch: normal; */
+    /* font-style: normal; */
+    /* line-height: 1; */
+    letter-spacing: normal;
+    color: #8c827a;
+  }
+  .VIEW-DETAILS {
+    /* width: 93px; */
+    /* height: 24px; */
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.15px;
+    color: #4f4f4f;
+  }
+  
+  
+  .PENDING {
+    /* width: 52px; */
+    /* height: 23px; */
+    /* font-family: Roboto; */
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    /* color: #eb5757; */
+    color:#8c827a;
+  }
+  .APPROVED {
+    /* width: 75px; */
+    /* height: 23px; */
+    /* font-family: Roboto; */
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #27ae60;
+  }
+  
+  .Activity-timeline {
+    /* width: 176px; */
+    /* height: 29px; */
+    /* font-family: Roboto; */
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #4e4e4e;
+  }
+  
+  /* ===================================Maincard.js============= */
+  .Card-BG {
+    width: 160px;
+    height: 160px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 #e5e5e5, 0 1px 2px 0 #bdbdbd;
+    background-color: #ffffff;
+    /* margin-left: 12px; */
+    /* margin-right: 20px; */
+  }
+  .cardmarginleftright{
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .captiontextdiv{
+    /* width: 132px; */
+    /* height: 36px; */
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.15px;
+    color: #4f4f4f;
+  }
+  .cationdiv{
+    width: 132px; 
+     /* height: 36px; */
+  }
+  
+  
+  /* =====================Footer.js============================ */
+  .Copyright-2020-Universal-Health-Fellowship-All {
+    /* width: 511px; */
+    /*height: 16px;*/
+    font-family: PalatinoLinotype;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #333333;
+    padding-bottom: 2px;
+    /*margin-bottom: 20px;*/
+  }
+  /* =============================DocumentsCard.js======================= */
+  .Important-Documents{
+    /* width: 40px; */
+    /* height: 36px; */
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.15px;
+    color: #4f4f4f;
+  }
+  .bg_content_doc{
+    width: 250px;
+    height: 100px;
+    background-color: rgba(234, 232, 219, 0.4);
+    overflow:scroll;
+    overflow-x: hidden;
+  }
+  .Single-line-item {
+    /* width: 190px; */
+    /* height: 19px; */
+    /* font-family: Roboto; */
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #4f4f4f;
+  }
+  
+  /* ======================MyShareplusCard-===================== */
+  .mysharecard{
+    width: 340px;
+    height: 200px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 #e5e5e5, 0 1px 2px 0 #bdbdbd;
+    background-color: #ffffff;
+    /* margin-left: 12px; */
+    /* margin-right: 12px; */
+    cursor: pointer;
+  }
+  .myshareplus_bg_content{
+    width: 340px;
+    height: 100px;
+    background-color: rgba(234, 232, 219, 0.4);
+    padding-right: 19px;
+    padding-left: 19px;
+  }
+  .Income{
+    /* width: 300px; */
+    /* height: 19px; */
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4f4f4f;
+  }
+  .dollorprice{
+    /* width: 100px; */
+    /* height: 21px; */
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.5px;
+    color: #f6356a;
+  }
+  .dollorfullrange{
+    /* width: 125px; */
+    /* height: 21px; */
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #4f4f4f;
+  }
+  /* ============================Contact inmfo================= */
+  .contactinfocard{
+    width: 340px;
+    height: 340px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 #e5e5e5, 0 1px 2px 0 #bdbdbd;
+    background-color: #ffffff;
+  }
+  .contact_infomiddiv{
+    width: 340px;
+    height: 240px;
+    background-color: rgba(234, 232, 219, 0.4);
+  }
+  .contactinfo_label{
+    /* width: 304px; */
+    /* height: 18px; */
+    /* font-family: 'Roboto'; */
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.15px;
+    color: #4f4f4f;
+  }
+  .contactinfo_Value{
+    /* width: 164px; */
+    /* height: 24px; */
+    /* font-family: Roboto; */
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.15px;
+    color: #33ab8f;
+  }
+  
+  
+  
+  
+  .demodivcont{
+    width: 140px;
+    height: 140px;
+    background-color: #ffffff;
+  }
+  
+  .bottommaincontainer_left{
+    /* width: 520px; */
+    width:100%;
+    height:100%;
+    /* height: 140px; */
+    /* background-color: red; */
+    margin-right: 20px;
+  }
+  
+  .bottommaincontainer_right{
+    width: 140px;
+    height: 140px;
+    background-color: #ffffff;
+  }
+  
+  /* ===============================================MYNeeds.js======================== */
+  
+  .container_div{
+    display: flex;
+    justify-content: center;
+  }
+  .myneeds_maincontanier{
+    width: 980px; 
+    /* height: 580px; */
+    border-radius: 4px; 
+    background-color: #ffffff;
+  }
+  .myneeds_header{
+    /* width: 91px; */
+    /* height: 18px; */
+    /* font-family: Roboto; */
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.9;
+    letter-spacing: 0.15px;
+    color: #4f4f4f;
+  }
+  .Submitted-Expenses{
+    /* width: 200px; */
+    /* height: 24px; */
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .pending_table{
+    /* width: 60px; */
+    /* height: 16px; */
+    /* font-family: Roboto; */
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.4px;
+    color: #c8372d;
+    background-color: #feedec;
+    border-radius: 4px;
+  }
+  .deined_table{
+    /* width: 50px; */
+    /* height: 16px; */
+    /* font-family: Roboto; */
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.4px;
+    color: #ce6b00;
+    background-color: #fef3e7;
+    border-radius: 4px;
+  }
+  .approve_table{
+    /* width: 70px; */
+    /* height: 16px; */
+    /* font-family: Roboto; */
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.4px;
+    color: #37833b;
+    background-color: #edf6ee;
+    border-radius: 4px;
+  }
+  .table_text{
+    /* width: 345px; */
+    /* height: 24px; */
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.44px;
+    color: #333333;
+  }
+  .table_custom_grey{
+    background-color: #f9f9fa;
+  }
+  .subtable_title{
+    /* width: 128px; */
+    /* height: 16.6px; */
+    /* font-family: Roboto; */
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.56);
+  }
+  .subtable_rowdata{
+    /* width: 94px; */
+    /* height: 20px; */
+    /* font-family: Roboto; */
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .subtable_view{
+    /* width: 50px; */
+    /* height: 20px; */
+    /* font-family: Roboto; */
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    color: #8c1342;
+  }
+  
+  .table_header_text{
+    /* width: 83px; */
+    /* height: 22px; */
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: 0.1px;
+    color: #8c827a;
+  }
+  
+  /* ===========================SharePlusAccount===================== */
+  .shareplus{
+    width: 980px;
+    height: 580px;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+  .shareplus_rangediv{
+    display: flex;
+    flex:1;
+    justify-content: center;
+  }
+  .shareplus_range_header{
+    /* width: 400px; */
+    /* height: 19px; */
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4f4f4f;
+  }
+  
+  /* =================================MemberHeader.js=================== */
+  .memberheader{
+  display: flex;
+  width: 100%;
+  height: 75px;
+  background-color: #ffffff;
+  padding-right: 12px;
+  padding-left: 12px;
+  align-items: center;
+  
+  }
+  .memberheader_img{
+    width: 150px;
+    height: 50px;
+    object-fit: contain;
+  }
+  .memberheader_assologodiv{
+    width: 150px;
+    height: 50px;
+    background-color: #eeeeee;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .memberheader_logotext{
+    /* width: 111px; */
+    /* height: 40px; */
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.86;
+    letter-spacing: 0.15px;
+    color: #4f4f4f;
+  }
+  
+  .membersubheader{
+    width: 100%;
+    height: 47.3px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+    background-color: #33afb0;
+    display: flex;
+    align-items: center;
+   padding-left: 12px;
+   padding-right: 12px;
+  }
+  .membersubheader_header{
+    /* width: 121px; */
+    /* height: 24px; */
+    /* font-family: Candara; */
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    color: #ffffff;
+  }
+  
+  .welcomemsg{
+    width: 302px;
+    height: 50px;
+    font-family: Candara;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.15px;
+    color: #f6356a;
+    margin-left:24px ;
+  }
+  .member_subtext{
+    width: 80%;
+    /* height: 32px; */
+    font-family: PalatinoLinotype;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.87);
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+  .member_cardcontainer{
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-top: 22px;
+  }
+  .member_cardrow{
+    display: flex;
+    margin-right: 14px;
+    margin-left: 14px;
+  }
+  .member_carddiv{
+    width: 225px;
+    height: 188px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 #e5e5e5, 0 1px 2px 0 #bdbdbd;
+    background-color: #ffffff;
+    margin-right: 25px;
+  }
+  .membercardimg{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .membercardtext{
+    /* width: 195px; */
+    /* height: 51px; */
+    /* font-family: Candara; */
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: 0.15px;
+    color: #4f4f4f;
+  }
+  
+  /* ============================Medical======================= */
+  .medical{
+    width: 975px;
+    height: 494px;
+    background-color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+  }
+  .medical_header{
+    width: 249px;
+    height: 50px;
+    font-family: Candara;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.15px;
+    color: #f6356a;
+  }
+  .medical_subtext{
+    width: 900px;
+    height: 40px;
+    font-family: PalatinoLinotype-Roman;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .medical_container{
+    display: flex;
+    align-items: center;
+  }
+  .medical_name_col{
+    width: 140px;
+  }
+  .medical_status_col{
+    width: 300px;
+  }
+  .medical_table_header{
+    width: 38px;
+    height: 18.6px;
+    font-family: Candara;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #4f4f4f;
+  }
+  .medical_table_col1{
+    /* width: 105px; */
+    /* height: 15.6px; */
+    /* font-family: Candara; */
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .medical_btn_col{
+    width: 90px;
+    height: 29px;
+    border-radius: 20px;
+    background-color: #febf42;
+  }
+  .medical_table_col3{
+    width: 66px;
+    height: 24px;
+    font-family: Candara;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    color: #420045;
+  }
+  .medical_donebtn{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fb6647;
+  
+    font-family: Candara;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+  }
+  
+  .medical_help{
+    width: 56px;
+    height: 56px;
+    border-radius: 99px;
+    box-shadow: 0 2px 4px 0 #bdbdbd;
+    background-color: #fb6647;
+   
+  }
+  
+  .medical_help_icon{
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+  }
+  .medical_needhelp{
+    /* width: 432px; */
+    /* height: 32px; */
+    font-family: PalatinoLinotype-Roman;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: #420045;
+  
+  }
+  
+  .medical_needmsg{
+    /* width: 432px; */
+    /* height: 32px; */
+    font-family: PalatinoLinotype-Roman;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: #420045;
+  
+  }
+  
+  /* ===================Digital Health Catd======================== */
+  .digital_healthcard{
+    padding:10px;
+  }
+  .digital_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .digital_content{
+    display: flex;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-top: 20px;
+  }
+  
+  .digital_texthead{
+    font-size: 14px;
+    font-weight: 600;
+    color:#4f4f4f;
+  }
+  
+  .digital_blueview{
+  display: flex;
+  justify-content: space-between;
+  width:320px;
+  }
+  .digital_bluetext{
+    font-size: 18px;
+    color: #7ec9b8;
+    font-weight: 500;
+  }
+  .digital_thankyou{
+    margin-top: 50px;
+    font-size: 16px;
+    color:#f74879;
+    font-weight: 600;
+  
+  }
+  .digital_rightview{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+  }
+  .digital_joined{
+  font-size:14px;
+  color: black;
+  
+  }
+  .digital_date{
+  font-size: 16px;
+  color: #972954;
+  font-weight: 700;
+  width: 100px;
+  }
+  .digital_footer{
+    background-color: #420046;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .digital_footer_text{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .digital_bottom{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+  }
+  .digital_viewcard{
+    font-size: 14px;
+    color: #919191;
+    font-weight: 500;
+  }
+  .digital_download{
+    font-size: 14px;
+    color: #80689b;
+    font-weight: 500;
+  }
+  .cursor_pointer{
+    cursor: pointer;
+  }
+
+  /* ============================Uplaod Csv.js=================== */
+.uplaodcsv{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background-color: #eae8db;
+
+  }
+  .uploadcsv_middlecontainer{
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    /* width: 200px; */
+    /* height: 200px; */
+    /* background-color: #ffffff; */
+    display: flex;
+    padding:20px;
+    /* background-color: white; */
+   
+    
+    /* background-color: #eae8db; */
+    }
+
+    .uploadcsv_filename{
+      font-size: 18px;
+      margin: 10px;
+    }
+    .td_error{
+      border-color: red;
+    }
+    .uploadcsv_table_container{
+      margin-top: 60px;
+      background-color: #ffffff;
+      margin-left: 50px;
+      margin-right: 50px;
+
+
+    }
+
+    .table_head_color{
+      background-color: #33afb0;
+    }
+
+    .table_error{
+      color:red;
+      width:11%;
+      font-size:12px;
+      text-align:left
+    }
+    .table_error_green{
+      color:green;
+    }
+
+    .uploadcsv_button_container{
+      display: flex;
+      justify-content:flex-end ;
+      align-items: flex-end;
+      padding: 30px 20px;
+    }
+  

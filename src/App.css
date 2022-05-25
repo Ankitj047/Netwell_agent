@@ -1,0 +1,48 @@
+.close{
+	color: #fff !important;
+}
+@font-face {
+    font-family: Tungsten;
+    src: url('../src/Assets/fonts/Oswald-SemiBold.ttf');
+    src: url('../src/Assets/fonts/Oswald-Regular.ttf');
+  }
+.header-container {
+    width: 100%;
+    height: 60px;
+    background-color: #533278;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container .logo {
+	width: 158px;
+}
+.header-container .caption {
+    width: 50%;
+	margin:0 auto;
+    font-family: Tungsten;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1.44px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header-container .icons-header{
+	width: 13%;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1.44px;
+    color: #fff;
+    margin-right: 14px;
+}
+.form-control:focus {
+    box-shadow: inset 0 0.6px 0.6px rgba(0, 0, 0, 0.075), 0 0 8px #533278 !important;
+  }

@@ -1,0 +1,255 @@
+{
+  "BUTTON":{
+    "DONE":"Done",
+    "START":"Start",
+    "SUBMIT":"Submit",
+    "NEXT":"Next",
+    "BACK":"Back",
+    "EDIT":"Edit",
+    "PREV":"Previous",
+    "VIEW":"View Programs",
+    "PROCEED":"Proceed",
+    "PROCEED1":"I understand & want to proceed",
+    "FINISH":"Finish",
+    "FINISH_LATER":"Finish Later",
+    "RESUME":"Resume",
+    "VIEWSHARING":"View All Sharing Programs",
+    "SELECTPLAN":"Select Program & Proceed",
+    "SUBMITAPPLICATION":"Submit Application",
+    "OK":"ok",
+    "CANCEL":"Cancel",
+    "ACCEPT":"Accept",
+    "OPTOUT":"Opt-out",
+    "VIEW_FAMILY_DETAILS" : "VIEW FAMILY DETAILS",
+    "QUITE" : "Quit",
+    "CONTINUE" : "Continue",
+    "PROCEED_UNDERSTAND" : "I understand & want to proceed",
+    "NOT_PROCEED"  : "I do not want to continue"
+  },
+  "SETUP_FAMILY" : {
+    "UR_DET" : "Your Details",
+    "TITLE" : "Please fill in the details requested. An asterisk (*) means the information is required.",
+    "FAMILY_DET" : "Your Family Details"
+  },
+  
+  "HEADER":{
+    "LOGO":"Association Logo",
+    "TITLE":"Member Enrollment",
+    "LOGOUT":"LOGOUT"
+  },
+
+  "VIEW_QUOTE":{
+    "TITLE":"Based on the information you’ve provided these are monthly voluntary contribution estimates for every sharing program available for you and any dependents you’ve listed.",
+    "PLACEHOLDER":"Placeholder to show explanation of the quote and specific terms, criteria, exceptions to be understood by the applicant before proceeding.",
+    "MODEL_TITLE":"View Programs",
+    "VIEW_FAMILY_DETAILS" : "Family Details",
+    "QUOTE_TITLE" : "Here are monthly sharing contribution estimates for every person you’ve told us about. We’re giving you these estimates for all six of our sharing programs. Click VIEW PROGRAMS to see details about what each program includes. Click VIEW FAMILY DETAILS to see the information you’ve given us about each family member. We’re using this information to create your Family Total amounts for each program. If you want to make changes to family information, click on the “Set up Family” circle in the navigation bar above. Please make note of the",
+    "QUOTE_TITLE2":"Other applicable fees that apply to all programs near the bottom of this screen.",
+    "QUOTE_TITLE3":" When you’ve decided which program you want to proceed with, and have all family information correct, click PROCEED to go to the next step."
+},
+  "ENROLLMENT":{
+    "INST":"Instructions",
+    "COPY":"Copyright © 2020 Universal Health Fellowship. All rights reserved.",
+    "TITLE":"Do let us know your reason for opting out of  Universal HealthShare.",
+    "OPT":"You can choose to opt-out of the process at any stage before you submit your application.",
+    "VERSION":"Version 1.0.0 (Build 050)"
+
+},
+  "Eligibility":{
+    "TITLE":"We need to confirm that everyone in the family meets eligibility requirements by asking some medical questions. Some medical conditions may exclude one or more family members from sharing program membership. Some information, such as smoking or body mass index (which we’ll calculate using your height and weight), may result in increased sharing contribution amounts. Please answer these questions as accurately as possible, and call the number provided at the bottom of this screen if you have a questions."
+  },
+  "ENROLL_FAMILY":{
+    "TITLE":"Enroll yourself and your family",
+    "SUB_TITLE":"Please select a family member to enroll.",
+    "HEADER1":"Name",
+    "STATUS":"Completion Status",
+    "NOTIFICATION":"Keep the following documents handy when enrolling:",
+    "NOTIFICATION1":"Here you may begin the enrollment process for the programs you’ve chosen. This process includes the completion of a medical questionnaire for you and any selected family members. You’ll need Social Security numbers and medical information before you begin.",
+    "NOTIFICATION2":"2. Medical Health Records",
+    "HELP":"Need Help?",
+    "SUPPORT":"Talk to a Universal HealthShare representative by calling ",
+    "ENROLL":"Enrolling"
+  },
+
+  "ENROLL_NEW":{
+    
+    "SUB_TITLE":"Why we need this?"
+   
+  },
+  "ENROLL_NEW6":{
+    
+    "AGREE":"*I agree with the",
+    "PRIVACY":"privacy policy.",
+    "AUTHORIZE":"*I authorize to contact my primary care physician.",
+     
+    "IMP_NOTICE":"Important Privacy Notice"
+   
+  },
+  "PLAN_SELECTION":{
+    "TITLE":"Here, you can select a sharing program that is the best fit for you. To view the sharing programs again, click on VIEW ALL SHARING PROGRAMS. ",
+    "TITLE2":"Then, once you've made your final choice, clicking on Select Sharing Program and choose the sharing program number. Then, under Select Program Effective Date, choose the date when you want your program to begin. When you’ve finished with your choices, click SELECT PROGRAM & PROCEED.",
+    "TOTAL":"Total Monthly Share Contributions",
+    "MODEL_TITLE":"View Programs"
+  },
+
+  "SETUP_PAYMENT":{
+    "CHECKBOX":"Preferred Mode of Payment",
+    "AMT_GST":"* Amount inclusive of 3.5% Merchant Fee",
+    "TITLE":"Set up payment",
+    "TEXT":"For your monthly contributions to Universal HealthShare, including enrollment and membership fees, we ask that you use ACH as an alternative to credit cards. Credit cards charge an additional 3.5% merchant fee that adds to the operating costs of the Universal Health Fellowship ministry and reduces the funds that would otherwise be available for medical needs sharing (But we do accept credit card payments if that’s your choice).",
+    "MODAL_TITLE" : "Message",
+    "MODAL_MSG1" : "Incorrect Data! Please fill correct data.",
+    "MODAL_MSG2" : "Something went wrong! Please try again."
+
+  },
+  "SUBMIT_APPLICATION":{
+    "AGREE":"*I agree with the",
+    "PRIVACY":" privacy policy.",
+    "AUTHORIZE":"*I authorize ",
+
+    "AUTHORIZE4":"*I have read and understand that ",
+    "AUTHORIZE44":" Health Sharing Programs are NOT insurance and that Health Sharing is Voluntary. I have also reviewed the State Legal Notices and the state Individual Mandates for health care programs. ",
+    "AUTHORIZE441":"I have also reviewed the State Legal Notices and the state Individual Mandates for health care programs.",
+
+    "AUTHORIZE11":"Universal Health Fellowship to contact my Medical Provider.",
+    "IMP_NOTICE":"Important Privacy Notice",
+    "TITLE":" Financial Authorization",
+    
+    "AUTHORIZE1":"*I authorize the debit of $75 towards my application fee, my monthly share contribution amount as determined by this application,",
+    "AUTH2":" and $15 towards Universal Health Fellowship monthly dues. I further authorize the automatic collection of my monthly share amount and $15 monthly dues each month as described in ",
+    "AUTH1":"",
+    "AUTH": "Financial Authorization",
+    "TERMS":"Health Sharing Terms",
+   
+    "MODEL_TITLE":"Statement of Shared Faith and Principles.",
+    "MODEL_TITLE2":"Message",
+    "MESSAGE":"Your information has been submitted and the processing of your sharing program application is underway. You’ll receive an email from us with further details.",
+    "MSG_2": "Thank you for sharing!",
+    "TEXT3":"Your member enrollment is ready to be submitted. But first, please read and indicate your acceptance of the statements linked below. Then, when you’re ready, click SUBMIT APPLICATION.",
+    "TEXT4":"*I have read and understood",
+    "TEXT5":"Statement of Shared Faith and Principles.",
+    "FINANCE_TITLE":"Financial  Authorization",
+    "FINANCE_BODY":" Member agrees that they are signing up for the sharing of medical needs or services that include an automatic contribution payment plan. Member expressly authorizes Universal Health Fellowship, Inc., to automatically debit their bank account or Credit Card on the payment due date provided to collect any and all fees and monthly membership fees for their membership. Member acknowledges and agrees upon the membership effective date and the initial monthly contribution payment amount (this is comprised of the first month’s contribution amount, monthly membership fees plus a one-time, refundable association enrollment fee). Member also acknowledges and agrees that their monthly contribution amounts and membership fees will be automatically charged or drafted every month from the credit card, debit card or bank account they provide to us. If the effective date falls on a weekend or holiday, they understand that the payments may be executed on the prior business day. Further, each Member attests that they are the holder of the credit card, debit card or bank account provided. Member agrees that if any such charge is dishonored, whether with or without cause and whether intentionally or inadvertently Universal Health Fellowship, Inc., the bank or credit card company shall be under no liability whatsoever even though it may result in forfeiture of their plan. Each member agrees that Universal Health Fellowship and its authorized agents, are authorized to contact them via phone, text or email regarding payments. Eligible sharing expenses are limited to the usual, reasonable and customary charge for each shared medical expense, in addition to any specific limits stated in the sharing guidelines.",
+    "AUTHORIZE2":"*I agree with",
+    "AUTHORIZE22":" Sharing program & General Membership disclosures.",
+    "SHARE_TITLE":"Sharing Program Disclosures",
+    "SHARE1":"I understand my sharing program does not share any costs for out-patient prescription drugs, over the counter medicines, or any other medications? I understand a pre-existing condition is any condition at the time of enrollment that has exhibited symptoms or received treatment or medication in the past 36 months is not eligible for sharing.",
+    "SHARE2":"I understand sharing for pre-existing medical conditions is limited, as follows, from the date of sharing plan membership: (a) First year of membership - no sharing; (b) Second and third year of sharing - eligible for sharing up to $50,000; and (c) Starting with the fourth membership (sharing plan) year, a condition is no longer considered pre-existing.",
+    "SHARE3":"I understand there is a 12 month waiting period for maternity sharing once sharing plan membership begins. Maternity sharing is limited to $5000 for normal delivery, $8000 for c-section and $50,000 for complications. Prenatal visits are limited to 9 and is available 90 days after sharing plan membership begins.",
+    "SHARE4":"I understand that this sharing program is not guaranteed issue and I can be turned down for sharing eligible needs based on my health status, and that my application must first be processed and membership payment received prior to me receiving any sharing under the program.",
+    "SHARE5":"I understand that I am not buying insurance coverage. It is not a major medical plan and is not subject to the minimum standards required by the Affordable Care Act. The program shall share amounts listed in the schedule of the program I selected that will be included in the membership materials sent to me upon enrollment and may include non-sharing amounts, consultation fees, and co-sharing amounts subject to a percent based on your program. If my eligible medical sharing expenses exceed the annual maximum sharing limits, then I will be responsible for any charges above those limits.",
+    "SHARE6":"I understand that it’s my responsibility to review the sharing guidelines in my welcome kit, and if I have any questions or are confused about anything about my sharing program, I will contact customer service. I confirm that the details of the sharing program have been explained to me by my sales agent, including the limitations and exclusions, and I accept the terms and conditions of the coverage as described.",
+    "SHARE_HEAD":"General Membership Disclosures",
+    "SHARE_HEAD1":"FRAUD WARNING",
+    "SHARE7":"Any person who knowingly and with intent to injure, defraud, or deceive any sharing organization or other person submits an membership application or statement of need containing any materially false, incomplete or misleading information may be committing a crime and may be subject to civil or criminal penalties.",
+    "SHARE_HEAD2":"Policy Terms & Conditions:",
+    "SHARE8":"The purpose of agreement to this disclosure is to ensure that the Member understands, among other things, what program they are purchasing, what sharing needs are included with that program, how much they are contributing at the initial time of sale, how much they will contribute monthly thereafter, and that all subsequent monthly contribution amounts will be automatically drafted from the credit or banking account provided by the Member.",
+    "PRIVACY_TITLE" : "Privacy Policy"
+  },
+
+"MODAL_POPUP1":{
+"TITLE":"Privacy Statement",
+"CONTENT1":"This Privacy Statement is effective May 1, 2019.",
+"CONTENT2":"Universal Health Fellowship understands that when our clients, partners and other individuals provide personal data to us, they place their trust in us. We take this trust seriously and are committed to respecting each individual’s privacy and protecting the personal data we handle.",
+"CONTENT3":"This Privacy Statement describes our privacy practices to help you understand what personal data we collect, use, share and transfer and to inform you about the choices you can make regarding your personal data.",
+"CONTENT4":"This Privacy Statement applies to the Universal Health Fellowship websites, domains, or applications that link to this Statement. We may supplement this Privacy Statement with a privacy statement for a specific product, service or website. When we do, the more specific statement is applicable.",
+"QUTESTION1":"How We Collect And Use Personal Data",
+"ANSWER1":"We collect and use personal data that you provide in order to operate our business, provide our products and services, send marketing and other communications, and comply with applicable laws and regulations. In addition to the data you provide to us directly, we may also process personal data about you that we receive from our clients or third parties.",
+"ANSWER12":"The types of personal data we process will depend on the purpose, including:",
+"ANSWER13":"Provide products and services – contact details (such as name, email, address, company name, phone number and other information necessary) to provide services to our clients and our client’s customers, including providing product support updates;",
+"ANSWER14":"Improve our products and services – contact details to conduct quality controls and evaluate the performance of our products and services, including conducting customer satisfaction surveys;",
+"ANSWER15":"Conduct due diligence – contact details and publicly available information about financial or reputational status of a client or third party supplier/partner;",
+"ANSWER16":"Generate sales and marketing leads – contact details, marketing preferences, publicly available social media information to maintain a client relationship management database and send relevant newsletters, solution updates, event notifications and other marketing communications;",
+"ANSWER17":"Manage relationships with our clients, suppliers and partners – contact details and payment information in order to execute contracts, generate invoices and make payments; and",
+"ANSWER18":"Respond to inquiries or requests for information – contact details for electronic communication.",
+"ANSWER19":"When we receive personal data about you from our clients in order to provide our services, Universal Health Fellowship processes the personal data as instructed by our clients and in accordance with our contractual obligations. Our clients are responsible for complying with regulations or laws regarding notice, disclosure, and/or obtaining consent prior to transferring the personal data to us for processing.",
+"QUESTION2":"How We Protect Your Personal Data",
+"ANSWER2":"We use reasonable security procedures and technical and organizational measures to protect against accidental or unlawful destruction, loss, disclosure or use of personal data we handle. We limit access to and use of your personal data to authorized persons and trusted third parties who have a reasonable need to know the information in order to perform our services and business operations and who are bound by confidentiality obligations.",
+"QUESTION3":"How Long We Retain Personal Data",
+"ANSWER3":"We retain your personal data only for as long as is necessary to fulfill the purpose for which the data was collected from you and in consideration of and compliance with applicable legal or regulatory requirements to maintain the data for legitimate purposes. For example, where required by law for audits or accounting requirements, to enforce our agreements or handle disputes. When personal data is no longer needed for the purpose it was collected or processed or to comply with a legal obligation, we securely destroy it.",
+"QUESTION4":"How We Share Your Personal Data",
+"ANSWER4":"We do not sell or otherwise disclose personal data about our website visitors or others that interact with Universal Health Fellowship or our products or services, except as described herein.",
+"ANSWER41":"We may share your personal data with authorized Universal Health Fellowship personnel with a need to know the information in order to process the personal data for the purpose we collected it. We also share personal data with third parties who are acting on our behalf in order to provide the products or services you request or to support our relationship with you. These third parties are not authorized by us to use or disclose the information except as necessary to perform services on our behalf pursuant to a contractual obligation or to comply with legal requirements. Universal Health Fellowship requires such third parties to comply with applicable data protection and privacy laws and agree to implement and maintain appropriate technical and organizational security measures to safeguard the personal data.",
+"ANSWER42":"Our sharing may include:",
+"ANSWER43":"With any of our Universal Health Fellowship subsidiaries and trusted third party suppliers/partners in order to perform our services or business operations;",
+"ANSWER44":"With our professional advisors and insurers to run our business;",
+"ANSWER45":"With legal authorities, government agencies, law enforcement authorities or other government officials when required by applicable laws or regulations or or pursuant to legal process (including for national security purposes);when we believe disclosure is necessary or appropriate to prevent physical harm or financial loss or in connection with an investigation of suspected or actual fraud or illegal activity; or when we believe that disclosure is necessary to protect our rights, protect your safety or the safety of others;",
+"ANSWER46":"With appropriate third parties in connection with the sale, transfer or financing of all or part of a Universal Health Fellowship business or its assets, including any such activities associated with a bankruptcy proceeding.",
+"QUESTION5":"How We Treat Personal Data From Individuals Outside The U.S.",
+"ANSWER5":"Universal Health Fellowship is a U.S. enterprise based in the U.S. Our products, services, and offerings are only available to parties within the U.S., and may be subject to further geographic or other limitations within the U.S. While we cannot prevent individuals from outside the U.S. from providing contact information to Universal Health Fellowship via our contact forms, we will not knowingly use information from parties outside the U.S., and will periodically purge any individual contact data known to be from individuals outside the U.S. from our databases.",
+"QUESTION6":"How We Respect Your Privacy In Marketing",
+"ANSWER6":"Universal Health Fellowship uses various means of communication and tools to market its products and services. We provide commercial marketing email to persons who consent or where we have a legitimate interest and it is otherwise permissible under applicable law. You may opt-out of our commercial marketing emails by using the “Unsubscribe” or “Opt-out” link in the commercial email or by contacting us at ",
+"ANSWER66":"info@UniversalHealthFellowship.org",
+"ANSWER61":"We may strive to make your Universal Health Fellowship experience the best it can be by using various tools that provide us with information about how you and other visitors interact with our website so that we can tailor your Universal Health Fellowship experience and improve our web properties. These tools may include Cookies and other automatic data collection tools.",
+"QUESTION7":"How To Request Access To Your Personal Data",
+"ANSWER7":"We rely on you to provide accurate, complete and current personal data to us.",
+"ANSWER71":"If you need to correct or update the personal data you provided to us, we will respond in a timely manner to all reasonable requests to access, correct or delete your personal data. Requests and questions can be submitted to ",
+"ANSWER72":"info@UniversalHealthFellowship.org",
+"QUESTION8":"How To Contact Us",
+"ANSWER8":"If you have any questions or comments regarding this statement or our privacy practices, or any concerns regarding a possible violation of this statement, our practices or any applicable privacy law please contact Universal Health Fellowship at ",
+"ANSWER81":"info@UniversalHealthFellowship.org ",
+"ANSWER82":"and we will promptly respond.",
+"QUESTION9":"Our mailing address is:",
+"ANSWER9":"Universal Health Fellowship, Inc.",
+"ANSWER91":"Attn: Privacy Administrator",
+"ANSWER92":"4555 Mansell Road, Suite 300,",
+"ANSWER93":"Alpharetta, GA 30022",
+"ANSWER94":"United States",
+"ANSWER95":"www.UniversalHealthFellowship.org",
+"QUESTION10":"Links To Other Websites",
+"ANSWER10":"As a convenience to our website visitors, we sometimes provide links to other websites. These linked sites are not under the control of Universal Health Fellowship and we are not responsible for their content. You should review the privacy statements of any linked website to understand their privacy practices before using the site.",
+"QUESTION11":"Children",
+"ANSWER11":"It is not our intent to collect personal data from children under the age of consent. Our websites are not designed to attract children and we request that children under the age of consent not submit personal data to us through our websites.",
+"QUESTION12":"Updates To Our Privacy Statement",
+"ANSWER122":"We may update this Privacy Statement from time to time. When we update this statement, we will also update the date at the top. Only the current statement is effective, so please review it periodically."
+
+},
+"MODAL_POPUP2":{
+  "TITLE":"Sharing Vs Insurance :",
+  "QUESTION1":"How To Know Whether Sharing Is Right For You",
+  "ANSWER1":"Sharing plans may not be for everyone, but for many people who don’t have access to traditional employer-sponsored health plans — including workers in the growing gig economy — they provide a way to help share health-related costs. And the goodwill generated by a community of concerned, sharing people is a good thing, too.",
+  "QUESTION2":"Health Sharing Programs Are Not Insurance",
+  "NOT":"Not",
+  "INSURANCE":"Insurance",
+  "ANSWER2":"Health care cost sharing is fundamentally different from health insurance. Here are some key things that you must know to understand the differences.",
+  "ANSWER21":"Sharing plans are not contractually obligated to share medical expenses. Whether other members choose to assist you with your medical bills will always be voluntary, because members are not obligated to share and will not be compelled by law to contribute toward your medical bills.",
+  "ANSWER22":"Sharing plans are built on shared ethical, spiritual, and religious beliefs, and the traditions of community aid, neighborly assistance, and the sharing of burdens. They provide a way to share medical expenses among members, but they do not accept any transfer of risk from members. Sharing ministries are not insurance companies, and their sharing guidelines and plans of operation are not insurance policies.",
+  "ANSWER23":"Sharing plans do not share expenses resulting from certain behaviors and lifestyle choices that are commonly recognized to be detrimental to personal health.",
+  "ANSWER24":"Regardless of whether a sharing plan member receives any sharing for medical expenses, they are always personally responsible for the payment of their own medical bills.",
+  "QUESTION3":"Health Sharing Is Voluntary",
+  "ANSWER3":"Traditional health insurance plans are based on contracts where an insurer becomes legally responsible for and accepts someone’s risk of loss (such as their medical bills) in exchange for their payment of premiums.",
+  "ANSWER31":"Sharing plans like Universal HealthShare are totally different. The choice to become a sharing plan member is completely voluntary. And monthly contributions by sharing community members are voluntary, non-refundable gifts made to help other sharing plan members meet their eligible health care expenses, and to help cover the operational and administrative costs of the not-for-profit Universal Health Fellowship organization.",
+  "ANSWER32":"Sharing contributions do not create a contract or other legally enforceable right to receive funds to pay your own health care expenses. All members take it as a matter of faith, not law, that others will voluntarily make contributions to help with medical costs. Because sharing plans don’t contractually guarantee payments, medical providers consider sharing members to be “self-pay” patients: that is, people who are considered to be individually responsible for their own medical bills.",
+  "ANSWER33":"Good news: some providers will voluntarily agree to bill their services to your ministry plan for sharing. And Universal HealthShare may be able to help identify facilities and providers who have historically been friendly and cooperative towards sharing plans.",
+  "QUESTION4":"Why We Offer Sharing",
+  "ANSWER4":"Sharing plans are about community cost sharing and personal choice. Because sharing plans aren’t subject to the same regulations as insurance, they have more flexibility in what is (or is not) shared. As a result, sharing can be easier on your monthly budget than health insurance. This means that more people can afford to provide for their health and wellness care, and that is a wonderful thing.",
+  "ANSWER41":"For more details about how our sharing plans work, ",
+  "READ":"read this Q&A.",
+  "QUESTION5":"Legal Notices",
+  "ANSWER5":"While sharing programs are unregulated, many state governments have published legal notices to inform their constituents about sharing organizations. Additionally, some states have adopted their own Individual Mandate laws, some of which impose a state tax penalty. It is important for each member to be familiar with their state notices and tax laws regarding sharing programs, including whether they qualify for an exemption from their state’s Individual Mandate, if any.",
+  "ANSWER51":"The state Legal Notices serve to further clarify that sharing programs are not health insurance plans. To read notices from all states that have issued them, ",
+  "ANSWER52":"click here.",
+  "ANSWER53":"An additional notice discusses the federal and state Individual Mandates for health care programs. To read this notice, ",
+  "QUESTION6":"Copyright © 2019-2020 Universal Health Fellowship. All rights reserved."
+  
+
+},
+"MODAL_LAST":{
+  "TITLE_LAST":"Universal HealthShare",
+  "QUESTION_LAST":"Statement of Shared Faith and Principles",
+  "ANSWER1_LAST":"We believe in the inherent worth and dignity of every person, and that an person’s happiness, spiritual growth, and potential to do good for themselves and others is inextricably tied to their physical health, and that each person has a fundamental right to make their own health care decisions, in consultation with their family, physicians, and other chosen advisors, free from government interference.",
+  "ANSWER2_LAST":"We believe in peace, liberty, justice, equity, and compassion in human relations, and that we improve ourselves and the world around us whenever we strive to reach that goal, whether or not we ultimately achieve it, and that those things require not just individual, but collective effort and the fostering of a true sense of community that extends beyond familiar boundaries.",
+  "ANSWER3_LAST":"We believe in the importance of respecting the interdependent web of all existence of which we are a part, and that recognizing that interdependence on a universal level first requires moving beyond individualism and experiencing interdependence on a community level.",
+  "ANSWER4_LAST":"We believe in the importance of being open to life’s great mysteries, and that it is a sacred right and responsibility to search for the truth and meaning behind those mysteries, and that the success of such searching requires that we not be isolated and self-centered, but rather that we develop relationship and connect with other people and remain open to their viewpoints.",
+  "ANSWER5_LAST":"We believe that the most effective way to encourage spiritual growth, respect for the interdependence of all existence, and the search for the truth and meaning is to participate in a community built on shared traditions that promotes acceptance and support by and among its members.",
+  "ANSWER6_LAST":"We believe that we have a spiritual and ethical duty to our family and other members of our community to make responsible and healthy life choices, such as avoiding foods, activities, and behaviors that cause or exacerbate illness, disease or injury.",
+  "ANSWER7_LAST":"We believe it is our sacred duty to assist those in need when we have the ability to do so."
+},
+
+"WELCOME_TEXT":{
+  "PARA":"Health care prices and deductibles are rising faster than our income, and traditional health insurance products are offered by huge business interests under a complex web of rules and regulations. The results are clear: many traditional health insurance programs are too expensive for many Americans, leaving them either uninsured or underinsured.",
+  "PARA2":"AVISHKAR"
+}
+
+
+}

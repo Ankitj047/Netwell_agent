@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Script for 3.136.92.227:4210-->
+    <!--<script type='text/javascript' data-cfasync='false'>
+
+      let CHAT_BOX_Id = sessionStorage.getItem('CHAT_BOX_Id');
+      window.purechatApi = {
+        l: [], t: [],
+        on: function () { this.l.push(arguments); } };
+      (function () {
+        var done = false;
+        var script = document.createElement('script');
+        script.async = true;
+        script.type = 'text/javascript';
+        script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript';
+        document.getElementsByTagName('HEAD').item(0).appendChild(script);
+        if(CHAT_BOX_Id) {
+          script.onreadystatechange = script.onload = function (e) {
+            if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+              var w = new PCWidget({c: CHAT_BOX_Id, f: true});
+              done = true;
+            }
+          };
+        }
+      })  ();
+
+      window.purechatApi.on('chatbox:ready', function () {
+          console.log('================ chatbox:ready ===================');
+      });
+    </script>-->
+
+    <!-- Script for https://dev.maricopaafa.universalhealthfellowship.org:8022/ -->
+    <!--<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '2db14392-d0b8-4b5c-a9f0-d421a54e50ac', f: true }); done = true; } }; })();</script>-->
+
+    <!-- Script for https://maricopaafa.universalhealthfellowship.org/ -->
+    <!--<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '54474007-e6fa-49e9-b55d-265b06bbd805', f: true }); done = true; } }; })();</script>-->
+    <script type='text/javascript' data-cfasync='false'>
+      let CHAT_BOX_Id = sessionStorage.getItem('CHAT_BOX_Id')
+      window.purechatApi = {
+        l: [],
+        t: [],
+        on: function() {
+          this.l.push(arguments)
+        }
+      }
+      ;(function() {
+        let done = false
+        let script = document.createElement('script')
+        script.async = true
+        script.type = 'text/javascript'
+        script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'
+        document
+          .getElementsByTagName('HEAD')
+          .item(0)
+          .appendChild(script)
+        if (CHAT_BOX_Id) {
+          script.onreadystatechange = script.onload = function(e) {
+            if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+              let w = new PCWidget({ c: CHAT_BOX_Id, f: true })
+              done = true
+            }
+          }
+        }
+      })()
+
+      function pureChat() {
+        window.purechatApi = {
+          l: [],
+          t: [],
+          on: function() {
+            this.l.push(arguments)
+          }
+        }
+        ;(function() {
+          let done = false
+          let script = document.createElement('script')
+          script.setAttribute('id', 'pureChatScript')
+
+          script.async = true
+          script.type = 'text/javascript'
+          script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'
+          document
+            .getElementsByTagName('HEAD')
+            .item(0)
+            .appendChild(script)
+          script.onreadystatechange = script.onload = function(e) {
+            if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+              let w = new PCWidget({ c: '623b51f6-92f7-468f-86cf-97b1075dadc4', f: true })
+              done = true
+            }
+          }
+        })()
+        window.purechatApi.on('chatbox:ready', function() {
+          window.purechatApi.set('chatbox.expanded', true)
+          window.purechatApi.set('chatbox.enableTranscriptDownload', false)
+          window.purechatApi.set('chatbox.askForRating', true)
+        })
+
+        window.purechatApi.on('chatbox:collapse', function(args) {
+          let script = document.getElementById('purechat-frame')
+          script.parentNode.removeChild(script)
+        })
+      }
+          
+              
+      </script>
+    <link rel="icon" href="%PUBLIC_URL%/netwell-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app"/>
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="stylesheet_UHS" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet_UHS" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet_UHS" href="../src/Assets/CSS/webfont.css">
+    <title>Agent App</title>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

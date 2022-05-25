@@ -1,0 +1,227 @@
+.login{
+    /* background: gray; */
+}
+
+.newnetwell{
+    padding: 0px !important;
+    margin: 0px  !important;
+}
+
+.NetWellPortalLoginDesktop{
+    width: 100%;
+  /* height: 100%; */
+  flex-grow: 0;
+  /* padding: 0px 0 133px; */
+  /* border: solid 1px #000; */
+  background-color: #fff;
+}
+
+.contain22er{
+    margin-top: 20px;
+}
+.bodyColor{
+    /* background: gray !important; */
+}
+
+.login .login-card{
+    box-shadow: 0 5px 15px rgba(0,0,0,.5) !important;
+    border-radius: 0% !important;
+    /* width: 350px;
+    height: 450px; */
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo-custom{
+    /* max-width: 80%;
+    max-height: 60%; */
+    width: 165px;
+    height: 55px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 61px;
+}
+
+.familylogo-custom{
+    /* max-width: 100%;
+    max-height: 60%; */
+    /* width: 100%;    
+    height: 378px; */
+    background-image: url('./images/family-looking-at-tablet.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 2.8;
+}
+
+.main-form{
+    /* background:#EAE8DB; */
+    padding: 16px 12px 0px;
+    /* margin-top: 20px; */
+}
+.label-head{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+.a-input{
+    width: 374px;
+    height: 36px;
+    flex-grow: 0;
+    margin: 0 44px 0px 0;
+    padding: 15px 52px 16px 32px;
+    border-radius: 100px;
+    border: solid 1px #89969f;
+    background-color: rgba(65, 181, 194, 0);
+}
+
+.login form p{
+    margin-bottom: 5px;
+}
+
+.a-form-ctrl{
+    margin-bottom: 5px;
+}
+
+.forgot-pawd{
+    /* width: 300px; */
+  height: 17px;
+  flex-grow: 0;
+  margin: 0px 62px 0 76px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+  padding: 14px;
+  /* text-align: left; */
+  color: #4782c4;
+}
+
+.forgot-pawd1{
+    /* width: 300px; */
+  height: 17px;
+  flex-grow: 0;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+  /* text-align: left; */
+  color: #4782c4;
+}
+
+.havingtrouble{
+    /* width: 863px; */
+  /* height: 51px; */
+  margin: 0px 289px 0 31px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+.havingtrouble1{
+    /* width: 863px; */
+  height: 51px;
+  margin: 0px 289px 0px 31px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+
+.forgot-pawd a{
+    color: #337ab7;
+    cursor: pointer;
+}
+.forgot-pawd:hover{
+    text-decoration: underline;
+}
+
+.a-btn{
+    width: 176px;
+  height: 36px;
+  flex-grow: 0;
+  margin: 0 20px 0 20px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #4782c4;
+}
+
+.a-btn2{
+    width: 176px;
+  height: 36px;
+  flex-grow: 0;
+  margin: 0 20px 0 20px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #4782c4;
+  border: solid 1px #89969f;
+}
+.a-btn2:hover{
+    border: solid 2px black;
+}
+
+.a-btn1{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0px 10px 0px;
+    height: 40px;
+    width: 220%;
+    color: #fff;
+    background-color: #fb6647;
+    border-color: #2e6da4;
+    background-image: none;
+    border: 1px solid #2e6da4;
+    border-radius: 4px;
+}
+.a-btn:hover{
+    color: #fff;
+    background-color: #4782c4;
+}
+
+.pwd-validations .valid{
+    color:#19BF00
+}
+.pwd-validations .invalid{
+    color:#DF3312
+}
+.pwd-validations .pwd-validation-txt{
+    margin-left: 5px;
+}
+
+.a-errorMessage{
+    padding: 5px;
+    font-size: 14px;
+    width: 100%;
+    background: #F5F5F5;
+    border: 2px solid #D64958;
+    color: #D64958;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.login button.a-btn[disabled] {
+    color: #ffffff85;
+    pointer-events: none;
+    background: #fb664778;
+}
